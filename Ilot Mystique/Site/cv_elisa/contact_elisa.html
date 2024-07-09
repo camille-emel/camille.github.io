@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact</title>
+  </head>
+
+  <body>
+    <section class="entete">
+      <header>
+        <h1>Carte de Visite</h1>
+        <h2>Elisa Leroy</h2>
+      </header>
+      <nav>
+        <div class="container-nav">
+          <button>
+            <a href="./cv_elisa.html" class="cta">Accueil</a>
+          </button>
+          <button>
+            <a href="./hobbies_elisa.html" class="cta">Mes hobbies</a>
+          </button>
+          <button class="current-page">
+            <a href="./contact_elisa.html" class="cta">Contact</a>
+          </button>
+        </div>
+        <div class="container-rs">
+          <img
+            class="logo-nav"
+            src="../image/icons8-linkedin-96.png"
+            alt="Linkedin"
+          />
+          <img class="logo-nav" src="../image/icons8-gmail-48.png" alt="gmail" />
+        </div>
+      </nav>
+    </section>
+
+    <div>
+      <main>
+        <form
+          class="formulaire"
+          action="https://httpbin.org/get"
+          method="get"
+        >
+          <fieldset class="genre">
+            <label for="madame">Madame</label>
+            <input
+              type="radio"
+              id="madame"
+              name="Genre"
+              value="Madame"
+              required
+            />
+            <label for="monsieur">Monsieur</label>
+            <input
+              type="radio"
+              id="monsieur"
+              name="Genre"
+              value="Monsieur"
+              required
+            />
+          </fieldset>
+          <fieldset class="nom-prenom">
+            <div class="nom">
+              <label for="name">Nom:</label>
+              <input
+                type="text"
+                id="name"
+                name="nom-utilisateur"
+                placeholder="Nom"
+                required
+              />
+            </div>
+            <div class="prenom">
+              <label for="firstname">Prénom:</label>
+              <input
+                type="text"
+                id="firstname"
+                name="nom-utilisateur"
+                placeholder="Prénom"
+                required
+              />
+            </div>
+          </fieldset>
+          <fieldset class="mail-telephone">
+            <div class="mail">
+              <label for="mail">E-Mail:</label>
+              <input
+                type="email"
+                id="mail"
+                name="email-utilisateur"
+                placeholder="E-mail"
+                required
+              />
+            </div>
+            <div class="telephone">
+              <label for="phone">Téléphone:</label>
+              <input
+                type="tel"
+                id="phone"
+                name="telephone-utilisateur"
+                placeholder="06/../../../.."
+                required
+              />
+            </div>
+          </fieldset>
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message-utilisateur"
+            placeholder="Message"
+            rows="5"
+            required
+          ></textarea>
+          <div class="bouton-submit">
+            <button class="submit" type="submit">Envoyer</button>
+          </div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>

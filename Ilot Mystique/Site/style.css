@@ -1,0 +1,562 @@
+main,
+nav {
+  margin-left: 15em;
+  margin-right: 15em;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+html {
+  background-image: url(./image/background1440.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* css 2 */
+h1 {
+  font-size: 8rem;
+  color: #f3e8dc;
+  margin: 0;
+  text-shadow: 4px 2px 4px rgb(87, 10, 80);
+  font-family: "Roboto Condensed", sans-serif;
+
+  transition: linear 1s;
+}
+h1:hover {
+      rotate: 720deg;
+    
+}
+h2 {
+  font-size: 4rem;
+  color: #f3e8dc;
+  margin: 0;
+  text-shadow: 8px 4px 8px rgb(87, 10, 80);
+  font-family: "Amatic SC";
+  opacity: 100%;
+}
+h2:hover {
+  opacity: 0;
+  transition: opacity 2s;
+}
+h3 {
+  font-size: x-large;
+  color: #6767c5;
+  margin: 0;
+  text-shadow: 4px 4px 4cap rgb(87, 10, 80);
+  font-family: "Amatic SC";
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin-top: 0;
+}
+
+p {
+  text-align: justify;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6em;
+}
+
+.entete {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+nav {
+  background-color: #f3e8dcce;
+  display: flex;
+  height: 6em;
+  justify-content: space-between;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  width: 8em;
+  padding: 0.5em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+button {
+  background-color: rgba(206, 44, 44, 0);
+  width: 100%;
+  border: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+button:first-of-type {
+  border-top-left-radius: 1em;
+}
+
+button:active {
+  background: #f3e8dc;
+}
+
+.container-rs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 15em;
+}
+
+.logo-nav {
+  width: 2em;
+  height: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+main {
+  /* background-color: #f3e8dc;*/
+    background-color: #ffffff;
+  padding: 2em;
+}
+
+.articles-container,
+.temoignages {
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
+  gap: 2em;
+}
+
+article,
+.votre-temoignage {
+  width: 50%;
+  /* padding-left: 2em; */
+  padding-top: 2em;
+}
+
+.images-articles {
+  width: 100%;
+  padding-top: 2em;
+}
+
+/* PAGE CV */
+.Bcv {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.cv {
+  margin-top: 3em;
+}
+
+.current-page {
+  background-color: #f3e8dc;
+}
+
+/* Specifique pages CV */
+
+ul {
+  padding: 1em;
+}
+
+.tableaucoordonees td {
+  padding-left: 0.5em;
+}
+
+.tableau-experience {
+  height: 20em;
+  width: 100%;
+}
+
+
+td {
+  padding-top: 0.5em;
+  width: 33%;
+  height: 33%;
+}
+
+/* PAGE hobbys */
+.hobbypage {
+  text-align: justify;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+/* Contact */
+
+.formulaire {
+  border: solid 1px black;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+label,
+textarea {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+input,
+textarea {
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.genre {
+  display: flex;
+  justify-content: center;
+  border: none;
+  gap: 2em;
+}
+
+.nom-prenom,
+.mail-telephone {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  gap: 1em;
+  padding: 0;
+}
+
+.nom,
+.prenom,
+.mail,
+.telephone {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.bouton-submit {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit {
+  padding: 0.7em;
+  margin-top: 25px;
+  border: solid 1px;
+  width: 33%;
+  border-radius: 0.4em;
+  background-color: rgb(87, 10, 80);
+  color: #fcfcfe;
+}
+
+.submit:hover {
+  background-color: rgba(87, 10, 81, 0.396);
+  transition: all 0.5s ease-out;
+}
+/* PAGE CV AJOUT */
+
+.coordonnees-hobbies,
+.competences-formations {
+  display: flex;
+  justify-content: center;
+}
+
+.presentation,
+.experience-professionnelle {
+  border: 2px solid #eae3e0;
+  border-radius: 1em;
+  padding: 0;
+  padding: 1em;
+  margin-top: 1em;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+.coordonnees,
+.hobby,
+.compétences,
+.formations {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin-top: 1em;
+  margin-right: 2em;
+  margin-left: 2em;
+  width: 50%;
+  border: solid 2px #eae3e0;
+  border-radius: 1em;
+}
+
+.coordonnees:hover,
+.hobby:hover,
+.compétences:hover,
+.formations:hover,
+.presentation:hover,
+.experience-professionnelle:hover {
+  background-color: #eae3e0;
+  /* background-color: #ffffff; */
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+  padding-top: 0;
+  padding: 1em;
+}
+
+.hobby p {
+  margin: 0;
+  padding-left: 1em;
+}
+
+/*media tablette*/
+@media (846px <= width <= 1024px) {
+  main,
+  nav {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  html {
+    background-image: url(./image/background810.jpg) center;
+  }
+
+  /* css 2 */
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12em;
+  }
+
+  .images-articles {
+    width: 100%;
+  }
+
+  nav {
+    display: flex;
+    height: 25%;
+  }
+
+  .container-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-rs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  article,
+  .votre-temoignage {
+    width: 100%;
+  }
+
+  .articles-container,
+  .temoignages {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  /* PAGE CV */
+  .Bcv {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Contact */
+  .nom,
+  .prenom,
+  .mail,
+  .telephone {
+    width: 100%;
+  }
+
+  .coordonnees-hobbies,
+  .competences-formations {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .presentation,
+  .experience-professionnelle {
+    margin-left: 0;
+  }
+
+  .experience-professionnelle {
+    overflow: scroll;
+  }
+
+  .coordonnees,
+  .hobby,
+  .compétences,
+  .formations {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 0;
+    border-radius: 1em;
+    width: 86vw;
+  }
+}
+/*smartphone*/
+@media (width <= 845px) {
+  main,
+  nav {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  html {
+    background-image: url(./image/background360.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  /* css 2 */
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12em;
+  }
+
+  .images-articles {
+    width: 100%;
+  }
+
+  nav {
+    background-color: #fcfcfe8a;
+    display: flex;
+    height: 25%;
+    justify-content: space-between;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+  }
+
+  .container-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container-rs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main {
+    padding: 0.5em;
+  }
+
+  article,
+  .votre-temoignage {
+    width: 100%;
+  }
+
+  .articles-container,
+  .temoignages {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  /* Contact */
+
+  .formulaire {
+    display: flex;
+    align-items: stretch;
+    padding: 2em;
+  }
+
+  .nom,
+  .prenom,
+  .mail,
+  .telephone {
+    width: 100%;
+  }
+
+  .nom-prenom,
+  .mail-telephone {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: none;
+    padding: 0;
+  }
+
+  .bouton-submit {
+    display: flex;
+    justify-content: center;
+  }
+
+  .coordonnees-hobbies,
+  .competences-formations {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .presentation,
+  .experience-professionnelle {
+    width: 80vw;
+    margin-left: 0;
+  }
+
+  .experience-professionnelle {
+    overflow: scroll;
+  }
+
+  .coordonnees,
+  .hobby,
+  .compétences,
+  .formations {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    width: 80vw;
+    margin-left: 0;
+  }
+}

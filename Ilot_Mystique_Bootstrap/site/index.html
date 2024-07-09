@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Page d'accueil site de vaudoo, professionnel qualifié et produits en vente de qualité, efficacité non prouvé"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="index_style.css" />
+
+    <title>Accueil Vaudoo</title>
+  </head>
+  <body
+    class="bg-image container"
+    style="
+      background-image: url('./image/background1440.jpg');
+      background-attachment: fixed;
+      background-position: center;
+    "
+  >
+    <header class="TitreNav d-flex vh-100 row">
+      <div class="align-content-center">
+        <h1 class="d-flex column mb-4 justify-content-center">
+          Voodoo et rites ancestraux
+        </h1>
+        <h2 class="text-center mb-4">
+          Trouver votre praticien & Boutiques de produits voodoo
+        </h2>
+      </div>
+      <div class="align-content-end sticky-top">
+        <nav
+          class="navbar navbar-expand-lg navbar-light border-radius bgColorNav"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./image/icons8-voodoo-60.png" alt="Logo Voodoo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./index.html"
+                    >Accueil</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./catalogue.html">Boutique</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Equipe
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="./CVcamilleE.html"
+                        >Camille E</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./CVelisa.html">Elisa</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./CVolivier.html"
+                        >Olivier</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./CVcamilleR.html"
+                        >Camille R</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="search-bar">
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Recherche"
+                  aria-label="Search"
+                />
+                <button class="button btn-outline-dark" type="submit">
+                  Go
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="bgColor">
+      <section class="a-propos p-4">
+        <h3>A propos</h3>
+        <p class="--bs-text-dark">
+          Bienvenue dans l'univers mystérieux de notre équipe
+          <a href="https://fr.wikipedia.org/wiki/Vaudou">Voodoo</a>. Nous sommes
+          un groupe de quatre passionnés dédiés à partager les secrets
+          ancestraux et les mystères envoûtants de la tradition vaudou.
+        </p>
+        <p>
+          Notre histoire: Notre fascination pour l'art et la magie du vaudou
+          remonte à notre enfance, où nous avons été immergés dans les coutumes
+          et les rituels transmis de génération en génération. Cette fascination
+          est devenue une passion brûlante qui nous a unis pour créer cet espace
+          où nous pouvons partager nos connaissances avec le monde.
+        </p>
+        <p>
+          Notre mission: c'est de démystifier le vaudou et de le rendre
+          accessible à tous ceux qui cherchent à explorer ses mystères. Nous
+          croyons fermement en l'éthique et le respect dans la pratique du
+          vaudou, en mettant l'accent sur son utilisation pour le bien-être
+          personnel et le développement spirituel.
+        </p>
+        <p>
+          Notre Expertise: Chacun d'entre nous apporte une expertise unique dans
+          différentes facettes du vaudou, allant des rituels traditionnels aux
+          techniques de guérison et à la divination. Ensemble, nous formons une
+          équipe complémentaire prête à guider nos visiteurs dans leur voyage à
+          travers le monde envoûtant du vaudou.
+        </p>
+      </section>
+      <section class="nos-produits p-4 mt-4">
+        <h3 class="mb-4">Nos produits</h3>
+        <div id="carouselExample" class="carousel slide carousel-fade">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active d-md-flex">
+              <div class="col-12 col-lg-4 pb-4 d-flex justify-content-center">
+                <div class="card shadow" style="width: 18rem">
+                  <a href="./produit_bracelet.html"
+                    ><img
+                      src="./image/produit/bracelet.jpg"
+                      class="card-img-top"
+                      alt="bracelets de protection"
+                  /></a>
+                  <div class="card-body bgItem">
+                    <a
+                      href="#"
+                      class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                    >
+                      <span class="original-text">99€</span>
+                      <span class="hover-text">Ajouter au panier</span>
+                    </a>
+                    <h5 class="card-title">Bracelets</h5>
+                    <p class="card-text">
+                      Bracelets ornée de pierres de protection
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 pb-4 d-flex justify-content-center">
+                <div class="card shadow" style="width: 18rem">
+                  <img
+                    src="./image/produit/Encens.jpg"
+                    class="card-img-top"
+                    alt="encens"
+                  />
+                  <div class="card-body bgItem">
+                    <a
+                      href="#"
+                      class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                    >
+                      <span class="original-text">230€</span>
+                      <span class="hover-text">Ajouter au panier</span>
+                    </a>
+                    <h5 class="card-title">Encens</h5>
+                    <p class="card-text">Repousse les mauvais esprits</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 pb-4 d-flex justify-content-center">
+                <div class="card shadow" style="width: 18rem">
+                  <img
+                    src="./image/produit/attrape-reve.jpg"
+                    class="card-img-top"
+                    alt="attrape reve"
+                  />
+                  <div class="card-body bgItem">
+                    <a
+                      href="#"
+                      class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                    >
+                      <span class="original-text">664€</span>
+                      <span class="hover-text">Ajouter au panier</span>
+                    </a>
+                    <h5 class="card-title">Attrape reve</h5>
+                    <p class="card-text">Vous protége durant la nuit</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item d-md-flex">
+              <div class="col-12 col-lg-4 pb-4 d-flex justify-content-center">
+                <div class="card shadow" style="width: 18rem">
+                  <img
+                    src="./image/produit/soucoupes-volante.jpg"
+                    class="card-img-top"
+                    alt="contact alien"
+                  />
+                  <div class="card-body bgItem">
+                    <a
+                      href="#"
+                      class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                    >
+                      <span class="original-text">543€</span>
+                      <span class="hover-text">Ajouter au panier</span>
+                    </a>
+                    <h5 class="card-title">Kick starseed</h5>
+                    <p class="card-text">Entrée en contact avec vos ancetres</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 pb-4 d-flex justify-content-center">
+                <div class="card shadow" style="width: 18rem">
+                  <img
+                    src="./image/produit/pierre_violete.jpeg"
+                    class="card-img-top"
+                    alt="pierre energy"
+                  />
+                  <div class="card-body bgItem">
+                    <a
+                      href="#"
+                      class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                    >
+                      <span class="original-text">765€</span>
+                      <span class="hover-text">Ajouter au panier</span>
+                    </a>
+                    <h5 class="card-title">Pierres chakra</h5>
+                    <p class="card-text">Difuse des energies bénéfique</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 pb-4 d-flex justify-content-center">
+                <div class="card shadow" style="width: 18rem">
+                  <img
+                    src="./image/produit/tin_foil_hat.jpg"
+                    class="card-img-top"
+                    alt="hat"
+                  />
+                  <div class="card-body bgItem">
+                    <a
+                      href="#"
+                      class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                    >
+                      <span class="original-text">800€</span>
+                      <span class="hover-text">Ajouter au panier</span>
+                    </a>
+                    <h5 class="card-title">Chapeau anti onde</h5>
+                    <p class="card-text">
+                      Vous protége contre tout type d'onde
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item d-md-flex">
+              <div class="col-12 col-lg-4 pb-4 d-flex justify-content-center">
+                <div class="card shadow" style="width: 18rem">
+                  <img
+                    src="./image/produit/truc.jpg"
+                    class="card-img-top"
+                    alt="spell scroll"
+                  />
+                  <div class="card-body bgItem">
+                    <a
+                      href="#"
+                      class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                    >
+                      <span class="original-text">350€</span>
+                      <span class="hover-text">Ajouter au panier</span>
+                    </a>
+                    <h5 class="card-title">Parchemin de sort</h5>
+                    <p class="card-text">
+                      Ne vous tromper pas d'incantation !! Très puissant.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 pb-4 d-flex justify-content-center">
+                <div class="card shadow" style="width: 18rem">
+                  <a href="./produit_poil.html"
+                    ><img
+                      src="./image/produit/poils-de-renard-roux-jmc-z-131-13129.jpg"
+                      class="card-img-top"
+                      alt="renard"
+                  /></a>
+                  <div class="card-body bgItem">
+                    <a
+                      href="#"
+                      class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                    >
+                      <span class="original-text">999€</span>
+                      <span class="hover-text">Ajouter au panier</span>
+                    </a>
+                    <h5 class="card-title">Poil de Tifoux</h5>
+                    <p class="card-text">A inhalé pour decupler vos sens</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 pb-4 d-flex justify-content-center">
+                <div class="card shadow" style="width: 18rem">
+                  <a href="./produit_poudre.html"
+                    ><img
+                      src="./image/produit/colorant-poudre-rose-70g-par-chocolatree_1_v1.png"
+                      class="card-img-top"
+                      alt="poudre louche"
+                  /></a>
+                  <div class="card-body bgItem">
+                    <a
+                      href="#"
+                      class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                    >
+                      <span class="original-text">195€</span>
+                      <span class="hover-text">Ajouter au panier</span>
+                    </a>
+                    <h5 class="card-title">Poudre d'elephant rose</h5>
+                    <p class="card-text">C dla bonne</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev control-carousel"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next control-carousel"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="temoignages p-4">
+        <div class="temoignages p-4 d-flex row">
+          <h3>Temoignages</h3>
+          <div class="col-6">
+            <h4>Thomas.C</h4>
+            <p>⭐️⭐️⭐️⭐️⭐️</p>
+            <p class="text-justify">
+              Je m'appelle Thomas, j'ai 34 ans, et je suis passionné par les
+              phénomènes paranormaux et les extraterrestres. Récemment, j'ai
+              consulté <strong>Maître Olivier</strong>, un vaudou spécialisé
+              dans les contacts extraterrestres. Dès mon arrivée, j'ai été
+              chaleureusement accueilli. <strong>Maître Olivier</strong> a
+              utilisé des méthodes traditionnelles et interdimensionnelles pour
+              déterminer mon lien avec les extraterrestres. Sa précision était
+              impressionnante. Cette consultation m'a profondément transformé et
+              apporté des réponses à mes questions. Je recommande vivement cette
+              expérience à tous les passionnés de l'inconnu.
+            </p>
+          </div>
+          <div class="col-6">
+            <h4>Julien.A</h4>
+            <p>⭐️⭐️⭐️⭐️⭐️</p>
+            <p class="text-justify">
+              Je m'appelle Julien, j'ai 40 ans. J'ai consulté la
+              <strong>grande prêtresse Camille</strong> pour des maux de santé
+              persistants, et je suis très satisfait. Elle a utilisé des rituels
+              de guérison et des remèdes naturels qui ont fait des merveilles.
+              En quelques semaines, mes symptômes ont considérablement diminué.
+              Camille est bienveillante et compétente. Je la recommande vivement
+              à ceux qui cherchent une approche alternative pour leurs problèmes
+              de santé.
+            </p>
+          </div>
+        </div>
+        <div class="temoignages p-4 d-flex row">
+          <div class="col-6">
+            <h4>Luc.M</h4>
+            <p>⭐️⭐️</p>
+            <p class="text-justify">
+              Je m'appelle Luc, j'ai 29 ans. J'ai consulté un vaudou pour qu'il
+              me lance des sorts de protection, mais l'expérience a été
+              décevante. Le <strong>gourou Camille</strong> semblait désorganisé
+              et peu professionnel. Les rituels étaient confus et je n'ai
+              ressenti aucun effet positif. Au contraire, j'ai eu des cauchemars
+              et un sentiment de malaise après la séance. Je déconseille
+              fortement ce vaudou et regrette d'avoir dépensé de l'argent pour
+              cette consultation.
+            </p>
+          </div>
+          <div class="col-6">
+            <h4>Sophie.V</h4>
+            <p>⭐️</p>
+            <p class="text-justify">
+              Je m'appelle Sophie, j'ai 35 ans. J'ai consulté la
+              <strong>voyante Elisa</strong>
+              récemment et j'ai été très déçue. Toute la séance était sombre et
+              négative. Elle ne m'a prédit que des morts et des événements
+              tragiques, sans aucun message d'espoir ou de conseil constructif.
+              Je suis sortie de là encore plus anxieuse qu'avant. Je ne
+              recommande pas Elisa, c'était une expérience très désagréable.
+            </p>
+          </div>
+        </div>
+        <hr />
+      </section>
+    </main>
+    <footer class="text-center text-lg-start text-muted bgColor">
+      <div
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <div class="d-none d-lg-block">
+          <span>Site créer par magie à Grenoble</span>
+        </div>
+        <div>
+          <i class="fab fa-facebook-f fa-2x" style="color: #3b5998"></i>
+          <i class="fab fa-twitter fa-2x" style="color: #55acee"></i>
+          <i class="fab fa-google fa-2x" style="color: #dd4b39"></i>
+          <i class="fab fa-instagram fa-2x" style="color: #ac2bac"></i>
+          <i class="fab fa-linkedin-in fa-2x" style="color: #0082ca"></i>
+          <i class="fab fa-youtube fa-2x" style="color: #ed302f"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://kit.fontawesome.com/047bcc8920.js"
+    crossorigin="anonymous"
+  ></script>
+</html>

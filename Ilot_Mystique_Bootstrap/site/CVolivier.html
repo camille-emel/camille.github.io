@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Communication extraterrestres. Interactions avec des civilisations des étoiles."
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index_style.css" />
+    <title>Maître Olivier</title>
+  </head>
+  <body
+    class="bg-image container"
+    style="
+      background-image: url('./image/background1440.jpg');
+      background-attachment: fixed;
+      background-position: center;
+    "
+  >
+    <!-- Début nav + titre -->
+    <div class="TitreNav d-flex row mt-5">
+      <div class="align-content-center">
+        <h1 class="d-flex column mb-4 justify-content-center">
+          Voodoo et rites ancestraux
+        </h1>
+        <h2 class="text-center mb-5">
+          Trouver votre praticien & Boutiques de produits voodoo
+        </h2>
+      </div>
+      <div class="align-content-end sticky-top">
+        <nav
+          class="navbar navbar-expand-lg navbar-light border-radius bgColorNav"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./image/icons8-voodoo-60.png" alt="Logo Voodoo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./index.html"
+                    >Accueil</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./catalogue.html">Boutique</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Equipe
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="./CVcamilleE.html"
+                        >Camille E</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./CVelisa.html">Elisa</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./CVolivier.html"
+                        >Olivier</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./CVcamilleR.html"
+                        >Camille R</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="search-bar">
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Recherche"
+                  aria-label="Search"
+                />
+                <button class="button btn-outline-dark" type="submit">
+                  Go
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Fin nav + titre -->
+
+    <main class="d-flex flex-column row-gap-3 bgColor">
+      <!-- présentation -->
+      <section class="container">
+        <div class="row">
+          <div class="col m-3">
+            <h3 class="display-6 text-center lh-lg">Maître Olivier</h3>
+          </div>
+        </div>
+        <div class="row justify-content-evenly m-5 shadow-sm">
+          <div class="col-12 col- col-lg-4 d-flex justify-content-center">
+            <img
+              src="./image/profil/Olivier.png"
+              alt="Soucoupe volante"
+              class="rounded"
+            />
+          </div>
+
+          <div
+            class="col-12 col-lg-4 d-flex justify-content-center align-items-center flex-column"
+          >
+            <h3>Présentation</h3>
+            <p class="fs-6">
+              Découvrez le Maître de la Communication et des Technologies
+              Extraterrestres, un être éclairé possédant une sagesse
+              transcendantale et une expertise inégalée dans l'interaction avec
+              des civilisations au-delà des étoiles, ouvrant ainsi les portes de
+              la connaissance universelle.
+            </p>
+          </div>
+
+          <div
+            class="col-12 col-lg-4 d-flex justify-content-center align-items-center flex-column"
+          >
+            <h3>Coordonées</h3>
+            <ul class="list-unstyled text-center">
+              <li class="fs-6">06.01.02.03.04</li>
+              <li class="fs-6">maitreolivier@gmail.com</li>
+              <li class="fs-6">
+                42 rue de l'Étoilefilante , Galaxie d'Andromède
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- accordéon -->
+      <section class="accordion m-4 shadow-lg" id="accordionExample">
+        <!-- Compétences -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button fs-4 bgItem"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Compétences
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body fs-5">
+              <ul class="">
+                <li>Communication intergalactique</li>
+                <li>Maîtrise des technologies avancées</li>
+                <li>Intelligence cosmique</li>
+                <li>Médiation interstellaire</li>
+                <li>Sagesse universelle</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Formations -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fs-4 bgItem"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Formations
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body fs-5">
+              <ul class="list-unstyled">
+                <li>
+                  <strong>Études interstellaires et interculturelles</strong>:
+                  Campus d'Andromède
+                </li>
+                <li>
+                  <strong>Ingénierie des technologies extraterrestres</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Expériences -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fs-4 bgItem"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Expériences
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body fs-5">
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <th scope="row">Ambassadeur intergalactique</th>
+                    <td>
+                      Conseil Intergalactique pour la Paix et la Coopération
+                      (CIPC)
+                    </td>
+                    <td>Grenoble</td>
+                    <td>2020 - 2023</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Créateur de ponts entre les mondes</th>
+                    <td>Organisation des Univers Unis</td>
+                    <td>New-York</td>
+                    <td>2020</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Guide spirituel et enseignant</th>
+                    <td>Campus d'Andromède</td>
+                    <td>Paris</td>
+                    <td>2015 - 2018</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Caroussel -->
+      <section class="d-flex flex-column align-items-center m-3">
+        <h3 class="text-center lh-lg">Mes hobbies</h3>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+          <div class="carousel-inner d-flex m-4">
+            <div class="carousel-item active">
+              <video class="img-fluid" autoplay loop muted>
+                <source
+                  src="./image/hobbies/voyageAstro.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="carousel-caption d-md-block">
+                <h5 class="display-3">Voyages intergalactiques</h5>
+                <p class="d-none d-sm-block">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Corporis labore consequuntur rem beatae deleniti, laudantium,
+                  aspernatur, blanditiis nostrum explicabo quas inventore
+                  doloribus?
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <hr />
+    </main>
+    <footer class="text-center text-lg-start text-muted bgColor">
+      <div
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <div class="d-none d-lg-block">
+          <span>Site créer par magie à Grenoble</span>
+        </div>
+        <div>
+          <i class="fab fa-facebook-f fa-2x" style="color: #3b5998"></i>
+          <i class="fab fa-twitter fa-2x" style="color: #55acee"></i>
+          <i class="fab fa-google fa-2x" style="color: #dd4b39"></i>
+          <i class="fab fa-instagram fa-2x" style="color: #ac2bac"></i>
+          <i class="fab fa-linkedin-in fa-2x" style="color: #0082ca"></i>
+          <i class="fab fa-youtube fa-2x" style="color: #ed302f"></i>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/047bcc8920.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

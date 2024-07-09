@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <meta name="description" content="Catalogue de vente d'objets mystique" />
+    <title>Catalogue vente objets mystique</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index_style.css" />
+  </head>
+  <body
+    class="bg-image container"
+    style="
+      background-image: url('./image/background1440.jpg');
+      background-attachment: fixed;
+      background-position: center;
+    "
+  >
+    <div class="TitreNav d-flex row mt-5">
+      <div class="align-content-center">
+        <h1 class="d-flex column mb-4 justify-content-center">
+          Voodoo et rites ancestraux
+        </h1>
+        <h2 class="text-center mb-5">
+          Trouver votre praticien & Boutiques de produits voodoo
+        </h2>
+      </div>
+      <div class="align-content-end sticky-top">
+        <nav
+          class="navbar navbar-expand-lg navbar-light border-radius bgColorNav"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./image/icons8-voodoo-60.png" alt="Logo Voodoo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./index.html"
+                    >Accueil</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./catalogue.html">Boutique</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Equipe
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="./CVcamilleE.html"
+                        >Camille E</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./CVelisa.html">Elisa</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./CVolivier.html"
+                        >Olivier</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./CVcamilleR.html"
+                        >Camille R</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="search-bar">
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Recherche"
+                  aria-label="Search"
+                />
+                <button class="button btn-outline-dark" type="submit">
+                  Go
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <main class="bgColor">
+      <div
+        class="container d-lg-flex flex-direction: column p-4 rounded-bottom"
+      >
+        <div class="container-fluid d-flex flex-direction: row">
+          <div class="form-check ms-5">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="Protection"
+            />
+            <label class="form-check-label" for="Protection">
+              Protection
+            </label>
+          </div>
+          <div class="form-check ms-5">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="Chakra"
+            />
+            <label class="form-check-label" for="Chakra"> Chakra </label>
+          </div>
+          <div class="form-check ms-5">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="Voodoo"
+            />
+            <label class="form-check-label" for="Voodoo"> Voodoo </label>
+          </div>
+          <div class="form-check ms-5">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="Envoutement"
+            />
+            <label class="form-check-label" for="Envoutement">
+              Envoutement
+            </label>
+          </div>
+        </div>
+        <div class="container-fluid d-flex flex-direction: row">
+          <div class="form-check ms-5">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="Voyance"
+            />
+            <label class="form-check-label" for="Voyance"> Voyance </label>
+          </div>
+          <div class="form-check ms-5">
+            <input class="form-check-input" type="checkbox" value="" id="ET" />
+            <label class="form-check-label" for="ET"> Extra terrestre </label>
+          </div>
+          <div class="form-check ms-5">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="Reussite"
+            />
+            <label class="form-check-label" for="Reussite"> Réussite </label>
+          </div>
+          <div class="form-check ms-5">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="lorem"
+            />
+            <label class="form-check-label" for="lorem"> lorem </label>
+          </div>
+        </div>
+        <div class="container d-flex align-items-center justify-content-center">
+          <a href="./cart.html"><img src="../site/image/CARTShop.jpg" alt="Cart"></a>
+        </div>
+      </div>
+      <section class="p-4">
+        <div class="container-fluid d-flex justify-content-center">
+          <div class="row">
+            <div
+              class="col-12 col-lg-6 col-xxl-4 d-flex justify-content-center p-2"
+            >
+              <div class="card shadow" style="width: 18rem">
+                <a href="./produit_bracelet.html"
+                  ><img
+                    src="./image/produit/bracelet.jpg"
+                    class="card-img-top"
+                    alt="bracelets de protection"
+                /></a>
+                <div class="card-body bgItem">
+                  <a
+                    href="#"
+                    class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                  >
+                    <span class="original-text">9999</span>
+                    <span class="hover-text">add cart</span>
+                  </a>
+                  <h5 class="card-title">Bracelets</h5>
+                  <p class="card-text">
+                    Bracelets ornée de pierres de protection
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-lg-6 col-xxl-4 d-flex justify-content-center p-2"
+            >
+              <div class="card shadow" style="width: 18rem">
+                <img
+                  src="./image/produit/Encens.jpg"
+                  class="card-img-top"
+                  alt="encens"
+                />
+                <div class="card-body bgItem">
+                  <a
+                    href="#"
+                    class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                  >
+                    <span class="original-text">9999</span>
+                    <span class="hover-text">add cart</span>
+                  </a>
+                  <h5 class="card-title">Encens</h5>
+                  <p class="card-text">Repousse les mauvais esprits</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-lg-6 col-xxl-4 d-flex justify-content-center p-2"
+            >
+              <div class="card shadow" style="width: 18rem">
+                <img
+                  src="./image/produit/attrape-reve.jpg"
+                  class="card-img-top"
+                  alt="attrape reve"
+                />
+                <div class="card-body bgItem">
+                  <a
+                    href="#"
+                    class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                  >
+                    <span class="original-text">9999</span>
+                    <span class="hover-text">add cart</span>
+                  </a>
+                  <h5 class="card-title">Attrape reve</h5>
+                  <p class="card-text">Vous protége durant la nuit</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-lg-6 col-xxl-4 d-flex justify-content-center p-2"
+            >
+              <div class="card shadow" style="width: 18rem">
+                <img
+                  src="./image/produit/pierre_violete.jpeg"
+                  class="card-img-top"
+                  alt="pierre energy"
+                />
+                <div class="card-body bgItem">
+                  <a
+                    href="#"
+                    class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                  >
+                    <span class="original-text">9999</span>
+                    <span class="hover-text">add cart</span>
+                  </a>
+                  <h5 class="card-title">Pierres chakra</h5>
+                  <p class="card-text">Difuse des energies bénéfique</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-lg-6 col-xxl-4 d-flex justify-content-center p-2"
+            >
+              <div class="card shadow" style="width: 18rem">
+                <a href="./produit_poudre.html"
+                  ><img
+                    src="./image/produit/colorant-poudre-rose-70g-par-chocolatree_1_v1.png"
+                    class="card-img-top"
+                    alt="poudre louche"
+                /></a>
+                <div class="card-body bgItem">
+                  <a
+                    href="#"
+                    class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                  >
+                    <span class="original-text">9999</span>
+                    <span class="hover-text">add cart</span>
+                  </a>
+                  <h5 class="card-title">Poudre d'elephant rose</h5>
+                  <p class="card-text">C dla bonne</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-lg-6 col-xxl-4 d-flex justify-content-center p-2"
+            >
+              <div class="card shadow" style="width: 18rem">
+                <img
+                  src="./image/produit/soucoupes-volante.jpg"
+                  class="card-img-top"
+                  alt="contact alien"
+                />
+                <div class="card-body bgItem">
+                  <a
+                    href="#"
+                    class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                  >
+                    <span class="original-text">9999</span>
+                    <span class="hover-text">add cart</span>
+                  </a>
+                  <h5 class="card-title">Kick starseed</h5>
+                  <p class="card-text">Entrée en contact avec vos ancetres</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-lg-6 col-xxl-4 d-flex justify-content-center p-2"
+            >
+              <div class="card shadow" style="width: 18rem">
+                <a href="./produit_poil.html"
+                  ><img
+                    src="./image/produit/poils-de-renard-roux-jmc-z-131-13129.jpg"
+                    class="card-img-top"
+                    alt="renard"
+                /></a>
+                <div class="card-body bgItem">
+                  <a
+                    href="#"
+                    class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                  >
+                    <span class="original-text">9999</span>
+                    <span class="hover-text">add cart</span>
+                  </a>
+                  <h5 class="card-title">Poil de Tifoux</h5>
+                  <p class="card-text">A inhalé pour decupler vos sens</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-lg-6 col-xxl-4 d-flex justify-content-center p-2"
+            >
+              <div class="card shadow" style="width: 18rem">
+                <img
+                  src="./image/produit/tin_foil_hat.jpg"
+                  class="card-img-top"
+                  alt="hat"
+                />
+                <div class="card-body bgItem">
+                  <a
+                    href="#"
+                    class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                  >
+                    <span class="original-text">9999</span>
+                    <span class="hover-text">add cart</span>
+                  </a>
+                  <h5 class="card-title">Chapeau anti onde</h5>
+                  <p class="card-text">Vous protége contre tout type d'onde</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-lg-6 col-xxl-4 d-flex justify-content-center p-2"
+            >
+              <div class="card shadow" style="width: 18rem">
+                <img
+                  src="./image/produit/truc.jpg"
+                  class="card-img-top"
+                  alt="spell scroll"
+                />
+                <div class="card-body bgItem">
+                  <a
+                    href="#"
+                    class="btn btn-outline-secondary btn-hover-text d-flex justify-content-center"
+                  >
+                    <span class="original-text">9999</span>
+                    <span class="hover-text">add cart</span>
+                  </a>
+                  <h5 class="card-title">Parchemin de sort</h5>
+                  <p class="card-text">
+                    Ne vous tromper pas d'incantation !! Très puissant.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </section>
+    </main>
+    <footer class="text-center text-lg-start text-muted bgColor">
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <div class="d-none d-lg-block">
+          <span>Site créer par magie à Grenoble</span>
+        </div>
+        <div>
+          <i class="fab fa-facebook-f fa-2x" style="color: #3b5998"></i>
+          <i class="fab fa-twitter fa-2x" style="color: #55acee"></i>
+          <i class="fab fa-google fa-2x" style="color: #dd4b39"></i>
+          <i class="fab fa-instagram fa-2x" style="color: #ac2bac"></i>
+          <i class="fab fa-linkedin-in fa-2x" style="color: #0082ca"></i>
+          <i class="fab fa-youtube fa-2x" style="color: #ed302f"></i>
+        </div>
+      </section>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/047bcc8920.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
